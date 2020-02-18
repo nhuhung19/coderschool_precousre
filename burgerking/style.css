@@ -12,18 +12,18 @@ nav {
     margin-left: 20px;
 }
 
-.main-pic{
+.main-pic {
     width: 100%;
 }
 
-.aboutus-title{
+.aboutus-title {
     background-color: grey;
     color: white;
     font-size: 60px;
     text-align: center;
 }
 
-h1{
+h1 {
     font-size: 60px;
 }
 
@@ -50,25 +50,33 @@ footer {
     margin-top: 80px;
     color: white;
     font-size: 16px;
-    
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer-left {
-    float: left;
-    
-
+    margin-right: 110px;
 }
 
 .footer-right {
-    float: right;
-    
-}
-
-.clear {
-    clear: both;
+    /* margin-left: 20px; */
 }
 
 .footer-item {
     text-decoration: none;
     color: white;
+}
+
+nav a {
+    transition-delay: 0s;
+    transition-property: font-size;
+    transition-duration: 0.5s;
+}
+
+nav a:hover {
+    font-size: 40px;
+    color: pink;
 }
