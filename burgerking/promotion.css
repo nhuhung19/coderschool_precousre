@@ -1,0 +1,90 @@
+body {
+    background-color: rgba(230, 230, 230, 0.986);
+}
+
+p {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.col-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.col-nav a:nth-of-type(3) {
+    color: orangered;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+}
+
+.col-img img {
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 500px;
+    height: 400px;
+}
+
+.order {
+    text-align: center;
+}
+
+.row-order {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 100px 30px 100px;
+}
+
+.order-title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1040px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 10px;
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.product-inner {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.product-inner img {
+    width: 250px;
+    height: 250px;
+}
+
+.product-inner p {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.product-inner .price {
+    font-size: 20px;
+    color: red;
+}
+
+button {
+    width: 250px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0, 181, 252, 0.897);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: yellow;
+}
